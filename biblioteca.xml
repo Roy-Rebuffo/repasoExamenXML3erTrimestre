@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+    <libro prestado="sí">
+        <titulo>El nombre del viento</titulo>
+        <autor pais="EEUU">Patrick Rothfuss</autor>
+        <anio>2007</anio>
+        <genero>Fantasía</genero>
+        <idioma>Inglés</idioma>
+        <edicion>Primera</edicion>
+        <devolucion>2025-06-15</devolucion>
+        <sinopsis>Crónica del asesino de reyes, historia de Kvothe.</sinopsis>
+    </libro>
+
+    <libro prestado="no">
+        <titulo>Cien años de soledad</titulo>
+        <autor pais="Colombia">Gabriel García Márquez</autor>
+        <anio>1967</anio>
+        <genero>Realismo mágico</genero>
+        <sinopsis></sinopsis>
+    </libro>
+
+    <libro prestado="no">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor pais="España">Miguel de Cervantes</autor>
+        <anio>1605</anio>
+        <genero>Novela</genero>
+        <idioma>Español</idioma>
+        <edicion>Edición académica</edicion>
+        <sinopsis></sinopsis>
+    </libro>
+</biblioteca>

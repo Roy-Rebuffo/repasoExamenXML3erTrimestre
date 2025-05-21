@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)> 
+    <!ELEMENT libro (titulo, autor, anio, genero, idioma?, edicion?, devolucion?, sinopsis)>
+        <!ATTLIST libro prestado (sí | no) #REQUIRED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+        <!ATTLIST autor pais CDATA #REQUIRED>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT idioma (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT devolucion (#PCDATA)>
+    <!ELEMENT sinopsis (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro prestado="sí">
+        <titulo>El nombre del viento</titulo>
+        <autor pais="EEUU">Patrick Rothfuss</autor>
+        <anio>2007</anio>
+        <genero>Fantasía</genero>
+        <idioma>Inglés</idioma>
+        <edicion>Primera</edicion>
+        <devolucion>2025-06-15</devolucion>
+        <sinopsis>Crónica del asesino de reyes, historia de Kvothe.</sinopsis>
+    </libro>
+
+    <libro prestado="no">
+        <titulo>Cien años de soledad</titulo>
+        <autor pais="Colombia">Gabriel García Márquez</autor>
+        <anio>1967</anio>
+        <genero>Realismo mágico</genero>
+        <sinopsis></sinopsis>
+    </libro>
+
+    <libro prestado="no">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor pais="España">Miguel de Cervantes</autor>
+        <anio>1605</anio>
+        <genero>Novela</genero>
+        <idioma>Español</idioma>
+        <edicion>Edición académica</edicion>
+        <sinopsis></sinopsis>
+    </libro>
+</biblioteca>
