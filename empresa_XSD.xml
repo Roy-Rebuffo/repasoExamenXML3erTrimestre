@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa [
+    <!ELEMENT empresa (empleados)>
+    <!ELEMENT empleados (empleado+)>
+    <!ELEMENT empleado (nombre, edad, departamento, incorporacion, email?, telefono?, observaciones?)>
+        <!ATTLIST empleado dni CDATA #REQUIRED
+                estado (activo | inactivo) #REQUIRED
+                jefe (si | no) #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+    <!ELEMENT departamento (#PCDATA)>
+    <!ELEMENT incorporacion (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT observaciones (#PCDATA)>
+]>
+<empresa>
+    <empleados>
+        <empleado dni = "X7233395X" estado="activo" jefe = "si">
+            <nombre>Roy</nombre>           
+            <edad>Rebuffo</edad>
+            <departamento >BackEnd</departamento>
+            <incorporacion>19/05/2025</incorporacion>
+            <email>royci98@icloud.com</email>
+            <telefono>618588855</telefono>
+            <observaciones>Gran currante</observaciones>
+        </empleado>
+    </empleados>
+</empresa>

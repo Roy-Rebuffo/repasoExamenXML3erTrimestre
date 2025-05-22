@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="empresa.xsd">
+    <empleados>
+        <empleado dni = "X7233395X" estado="activo" jefe = "si">
+        <nombre>Roy</nombre>           
+        <edad>Rebuffo</edad>
+        <departamento >BackEnd</departamento>
+        <incorporacion>19/05/2025</incorporacion>
+        <email>royci98@icloud.com</email>
+        <telefono>618588855</telefono>
+        <observaciones>Gran currante</observaciones><!--elemento opcional y puede estar vacio-->
+        </empleado>
+    </empleados>
+</empresa>
